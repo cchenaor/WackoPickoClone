@@ -12,5 +12,9 @@ jobs:
              args: skims scan Config.yaml
 
          - uses: actions/upload-artifact@v3
+            name: Upload CSV artifact
+            with:
+             name: fluid-attacks-results
+             path: ./Fluid-Attacks-Results.csv
            
             
