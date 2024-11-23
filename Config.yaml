@@ -19,3 +19,4 @@ sca:
   exclude:
     - glob(**/test/**)
 file_size_limit: false
+strict: true
